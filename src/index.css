@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: black;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.Dancing_Baby {
+  width: 100vw;
+  height: 100vh;
+  position: fixed; /* This keeps it positioned relative to the viewport */
+  top: 0;
+  left: 0;
+  margin: 0;
+  overflow: hidden; /* This ensures the GIF doesn't overflow the viewport */
+  display: flex; /* Optional: You can use flexbox to center the image */
+  align-items: center;
+  justify-content: center;
+}
